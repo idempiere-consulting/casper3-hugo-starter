@@ -4,34 +4,21 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: document
+  path: home/idempiere/sokdir.it/content
+  label: Service
+  match: "**/*"
+- type: document
+  path: home/idempiere/sokdir.it/content
+  label: 'abou '
+  match: "**/*"
+- type: document
+  path: home/idempiere/sokdir.it/content
+  label: banner
+  match: "**/*"
+  read_only: true
 - type: heading
   label: Content
-- type: directory
-  path: content/post
-  label: Post
-  create: documents
-  match: "**/*"
-  templates:
-  - post
-- type: directory
-  path: content
-  label: Pages
-  create: all
-  match: "*"
-- type: directory
-  path: content/homepage
-  label: Homepage
-  create: all
-  match: "**/*"
-- type: document
-  path: config.toml
-  label: Site configuration
-- type: heading
-  label: Docs
-- type: document
-  path: README.md
-  label: README
-  read_only: true
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
