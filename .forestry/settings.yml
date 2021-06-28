@@ -7,15 +7,12 @@ sections:
 - type: document
   path: home/idempiere/sokdir.it/content
   label: Service
-  match: "**/*"
 - type: document
   path: home/idempiere/sokdir.it/content
   label: 'abou '
-  match: "**/*"
 - type: document
   path: home/idempiere/sokdir.it/content
   label: banner
-  match: "**/*"
   read_only: true
 - type: heading
   label: Content
