@@ -6,6 +6,11 @@ webhook_url:
 sections:
 - type: document
   path: home/idempiere/sokdir.it/content
+  label: contact
+  match: "**/*"
+  read_only: false
+- type: document
+  path: home/idempiere/sokdir.it/content
   label: Service
 - type: document
   path: home/idempiere/sokdir.it/content
