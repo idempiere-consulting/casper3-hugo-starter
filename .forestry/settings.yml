@@ -14,8 +14,6 @@ sections:
   path: home/idempiere/sokdir.it/content
   label: banner
   read_only: true
-- type: heading
-  label: Content
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
